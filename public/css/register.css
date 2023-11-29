@@ -1,0 +1,238 @@
+header{
+    background-color: #EAC926;
+    width: 100%;
+}
+body{
+    margin: 0px 0px 0px 0px;
+    background-color: #ebebeb;
+}
+footer{
+    background-color: white;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+.section-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 32px 0 0;
+}
+.logo-header{
+    width: 45%;
+    margin: 0%;
+}
+.barra-busqueda{
+    display: flex;
+    width: 45%;
+    background-color: white;
+    align-self: center;
+    border-radius: 5px;
+}
+.barra-b{
+    width: 100%;
+    border: none;
+}
+.form-input{
+    display: flex;
+    width: 100%;
+    margin: 6px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+.button-lupa{
+    border: none;
+    padding: 0px;
+    background-color: transparent;
+}
+.encabezado{
+    font-family: 'Roboto';
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+}
+.nav{
+    display: none;
+    padding: 0px;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    max-width: 100%;
+    vertical-align: top;
+}
+.titulares{
+    font-size: 24px; 
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 0;
+ }
+ .titulares-footer{
+    margin: auto;
+    color: #666;
+}
+.burguer-menu{
+    width: 32px;
+    margin: 4% 45%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(6, 3, 156);
+    color: white;
+}
+.baner-header{
+    margin: 0px;
+}
+.icono-footer{
+    color: #1259c3;
+    font-size: 2em;
+}
+.pie-de-pagina{
+    text-align: center;
+    padding: 0px;
+}
+#textos{
+    font-size: 10px;
+}
+.datos-usuario{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.fecha.de.nacimiento{
+    width: 77%;
+    padding: 0.5rem 0;
+}
+.fecha.de.nacimiento input{
+    width: 45%;
+    margin-top: 5%;
+    border: none;
+}
+.perfil.de.usuario select{
+    margin: 5% 0;
+}
+.foto.de.perfil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem 0;
+}
+.registro{
+    margin: 15px 0;
+    width: 70%;
+}
+.datos.en.texto{
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 5% 0;
+}
+.datos.en.texto input{
+    border:none;
+}
+.contraseña{
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 5% 0;
+}
+.contraseña input{
+    border:none;
+}
+*{
+    box-sizing: border-box;
+}
+
+/*DISPOSITIVO TABLET*/
+@media(min-width: 361px){
+
+    .burguer-menu{
+        display: none;
+    }
+    .logo-header{
+        width: 30%;
+        padding: 10px;
+    }
+    .section-header{
+        padding: 31px 0;
+    }
+    .barra-busqueda{
+        width: 30%;
+    }
+    .encabezado{
+        width: 30%;
+        font-size: 7px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 1% 1%;
+    }
+    .lista{
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        text-align: center;
+    }
+    .textos{
+        margin: 4% 0;
+    }
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+/*DISPOSITIVO DESKTOP*/
+@media(min-width: 769px){
+
+    .burguer-menu{
+        display: none;
+    }
+    .encabezado{
+        font-size: 10px;
+    }
+    .lista{
+        width: 35%;
+    }
+    .pie-de-pagina{
+        display: flex;
+        justify-content: center;
+    }
+    .li-footer{
+        width: 33%;
+        padding: 3% 5%;
+    }
+    .titulares-footer{
+        font-size: 16px;
+        color: #666;
+    }
+    .textos{
+        font-size: 12px;
+    }
+    #textos{
+        font-size: 13px;
+        padding: 1%;
+    }
+    
+    *{
+        box-sizing: border-box;
+    }
+}
